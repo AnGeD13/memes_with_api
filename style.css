@@ -1,0 +1,50 @@
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    font-size: 50px;
+    line-height: 61px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 35px;
+    line-height: 42.67px;
+    margin-bottom: 13px;
+}
+
+input, select {
+    box-sizing: border-box;
+    width: 393px;
+    height: 54px;
+    border-radius: 15px;
+    font-size: 25px;
+    line-height: 30.48px;
+    padding: 12px 0 12px 22px;
+    margin-bottom: 50px;
+}
+
+.mem_img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 568px;
+    height: 335px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 35px;
+    line-height: 45.5px;
+    margin: 0;
+    padding-top: 20px;
+}
